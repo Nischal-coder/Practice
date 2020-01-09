@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>Admission Form of College</title>
+	</head>
+	<body>
+		<h1>Admission Form</h1>
+		<form method="post" name="form1">
+			<fieldset>
+				<legend align="left">Personal Information</legend>
+				First Name:<input type="text" name="First name" placeholder="Enter first name"/>
+				Midddle Name:<input type="text" name="Middle name" placeholder="Enter Middle name"/>
+				Last Name:<input type="text" name="Last name" placeholder="Enter Last name"/></br></br>
+				Address:<input type="text" name="address" placeholder="Enter address"/></br></br>
+				Email Address:<input type="text" name="email" placeholder="Enter your email"/></br></br>
+				Phone Number:<input type="number" name="phone number" />
+				Gender:<input type="radio" value="male" name="gender"checked="checked">Male
+					<input type="radio" value="female" name="gender">Female
+			</fieldset>
+			<fieldset>
+				<legend align="middle">Permanent address</legend>
+				Zone:<select name="zone">
+					<option value="Mechi">Mechi</option>
+					<option value="Koshi">Koshi</option>
+					<option value="Bagmati">Bagmati</option>
+					</select>
+				District:<select name="District">
+					<option value="Kathmandu">Kathmandu</option>
+					<option value="Bhaktapur">Bhaktapur</option>
+					<option value="Lalitpur">Lalitpur</option>
+					<option value="Makwanpur">Malwanpur</option>
+				      </select></br></br>
+				Ward No:<input type="number" name="ward no">
+				Tole:<input type="text" name="tole">
+			</fieldset>
+			<fieldset>
+				<legend align="middle">Qualification</legend>
+				SLC Grade:<input type="text" name="gradeslc"/></br></br>
+				Plus 2 Grade:<input type="text" name="gradeplus2"/>
+			</fieldset>
+			<fieldset>
+				<legend align="left">Others</legend>
+				Hobbbies:<input type="checkbox" value="movie" name="movie"/>Movies
+				<input type="checkbox" value="football" name="Football"/>Football
+				<input type="checkbox" value="novel" name="novel"/>Novel
+				<input type="checkbox" value="music" name="music"/>Music
+			</fieldset>
+				Few words:</br>
+				<textarea rows="6" cols="60">
+				</textarea></br>
+				<input type="submit" value="send">
+				<input type="reset" value="clear">
+		</form>
+	</body>
+</html>
